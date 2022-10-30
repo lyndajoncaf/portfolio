@@ -1,0 +1,118 @@
+/* || General styles */
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: cyan;
+}
+
+
+header, section, nav, footer {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+main {
+  margin-top: 20vw;
+}
+/* || Header and main navigation*/
+.logo {
+    font-size: 18px;
+    color: rgb(17, 9, 2);
+    border: 1px solid black;
+    margin: 20px;
+}
+
+header {
+  display: flex;
+  width: 100vw;
+  top: 0px;
+  margin: 0px 0px;
+  position: fixed;
+  z-index: 99;
+  background-color: rgb(226, 148, 51);
+  
+}
+ul {
+  list-style: none;
+ }
+a {
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  padding: 0 20px;
+}
+
+.push {
+  margin-left: 50vw;
+}
+
+/* || About me section*/
+.about-me-container {
+  display: flex;
+}
+.profile-pic {
+  width: 300px;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+p {
+  font-size: 20px;
+  padding-left: 35px;
+  padding-right: 40px;
+}
+/* || Projects section */
+
+.flexbox-container {
+  display: flex;
+  height: auto;
+  width: 100vw;
+  background-color: white;
+  padding: 30px 0;
+}
+
+.flex-items {
+  display: flex;
+}
+ 
+ 
+/* || Website counter*/
+
+/* Center child elements */
+/*body,*/
+.website-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/* Styles for website counter container */
+.website-counter {
+  background-color: #ff4957;
+  height: 50px;
+  width: 80px;
+  color: white;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+/* Styles for reset button */
+#reset {
+  margin-top: 20px;
+  background-color: #008cba;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 8px 20px;
+  color: white;
+  border: 0;
+}
