@@ -1,10 +1,11 @@
+/*  color palette https://colorhunt.co/palette/a0937de7d4b5f6e6cbe3cdc1 */
 /* || General styles */
 
 body {
   margin: 0;
   width: 100vw;
   height: 100vh;
-  background-color: cyan;
+  background-color: #A0937D;
 }
 
 
@@ -12,9 +13,13 @@ header, section, nav, footer {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
-
+ 
 main {
   margin-top: 20vw;
+}
+
+h5 {
+  text-align: center;
 }
 /* || Header and main navigation*/
 .logo {
@@ -31,7 +36,7 @@ header {
   margin: 0px 0px;
   position: fixed;
   z-index: 99;
-  background-color: rgb(226, 148, 51);
+  background-color: #E3CDC1;
   
 }
 ul {
@@ -73,14 +78,34 @@ p {
   display: flex;
   height: auto;
   width: 100vw;
-  background-color: white;
-  padding: 30px 0;
+  /*background-color: white;*/
+  padding: 40px 0;
+  flex-direction: column;
+}
+
+.flexbox-container h2 {
+  color: #F6E6CB;
+  text-align: center;
 }
 
 .flex-items {
   display: flex;
+  justify-content: space-around;
 }
  
+/* || Skills section*/
+
+.fa-brands {
+  font-size: 2rem;
+  margin-right: 20px;
+}
+.skill-font {
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 5px;
+}
+
  
 /* || Website counter*/
 
